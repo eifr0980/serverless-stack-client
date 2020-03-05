@@ -1,4 +1,6 @@
 export default {
+  STRIPE_KEY: "pk_test_f9UvMgYb8xShkKi22G2qHTxF00QNc9C4TS",
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "eu-central-1",
     BUCKET: "notes-app-uploads-eifr"
