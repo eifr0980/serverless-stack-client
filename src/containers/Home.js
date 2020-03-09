@@ -55,8 +55,6 @@ export default function Home(props) {
     return (
       <div className="lander">
         <h1>Scratch</h1>
-        <h1>-{process.env.REACT_APP_STAGE}-</h1>
-
         <p>A simple note taking app</p>
         <div>
           <Link to="/login" className="btn btn-info btn-lg">
